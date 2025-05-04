@@ -7,6 +7,12 @@
 
         <title>{{ config('app.name', 'Laravel') }}</title>
 
+        <!-- Font Awesome -->
+
+        <link href="{{asset('assets/fontawesome/css/fontawesome.css')}}" rel="stylesheet" />
+        <link href="{{asset('assets/fontawesome/css/brands.css')}}" rel="stylesheet" />
+        <link href="{{asset('assets/fontawesome/css/solid.css')}}" rel="stylesheet" />
+
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
