@@ -7,22 +7,27 @@
 
         <title>{{ config('app.name', 'Laravel') }}</title>
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+        <link rel="icon" type="image/x-icon" href="{{asset('img/application-favicon.svg')}}" sizes="16x16 32x32 48x48">
+
+        <!-- Font Awesome -->
+        <link href="{{asset('assets/fontawesome/css/fontawesome.css')}}" rel="stylesheet" />
+        <link href="{{asset('assets/fontawesome/css/brands.css')}}" rel="stylesheet" />
+        <link href="{{asset('assets/fontawesome/css/solid.css')}}" rel="stylesheet" />
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
-    </head>
-    <body class="font-sans text-gray-900 antialiased">
-        <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100">
-            <div>
-                <a href="/">
-                    <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
-                </a>
-            </div>
 
-            <div class="w-full sm:max-w-md mt-6 px-6 py-4 bg-white shadow-md overflow-hidden sm:rounded-lg">
+    </head>
+    <body class="flex h-screen">
+        <div class="flex-1 flex bg-[linear-gradient(90deg,rgba(27,40,69,1)_16%,rgba(39,64,96,1)_100%)] text-white">
+            <div class="m-auto text-center">
+                @isset($greeting)
+                    {{$greeting}}
+                @endisset
+            </div>
+        </div>        
+        <div class="flex-1 flex">
+            <div class="m-auto">
                 {{ $slot }}
             </div>
         </div>

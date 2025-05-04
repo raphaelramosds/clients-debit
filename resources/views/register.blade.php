@@ -1,4 +1,4 @@
-<x-visitor-layout>
+<x-guest-layout>
     <x-slot name="greeting">
         <h1 class="text-7xl font-bold">Olá,</h1>
         <p class="text-lg py-10 text-left">Preencha os campos ao lado para criar <br> o seu cadastro.</p>
@@ -26,4 +26,4 @@
     <div class="mt-3 text-center text-[#555555]">
         <a href="{{url('login')}}">Voltar para a tela de login</a>
     </div>
-</x-visitor-layout>
+</x-guest-layout>

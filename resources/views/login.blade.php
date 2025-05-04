@@ -1,4 +1,4 @@
-<x-visitor-layout>
+<x-guest-layout>
     <x-slot name="greeting">
         <h1 class="text-7xl font-bold">Bem vindo.</h1>
         <p class="text-lg py-10">Ainda não tem uma conta?</p>
@@ -19,4 +19,4 @@
             <a href="#">Esqueci minha senha</a>
         </div>
     </div>
-</x-visitor-layout>
+</x-guest-layout>
