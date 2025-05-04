@@ -2,7 +2,15 @@
 
 ## O que tem aqui?
 
-Essa aplicação não me ajuda em nada no meu cotidiano, pois é somente um CRUD inútil. Construi ela apenas para treinar minhas habilidades de prototipagem com o Laravel Blade, e aplicar conhecimento de autenticação e autorização do usuário e *parsing* de arquivo CSV.
+Essa aplicação não me ajuda em nada no meu dia a dia, pois é somente um CRUD inútil. Construi ela apenas para treinar minhas habilidades de prototipagem com o Laravel Blade, e aplicar conhecimento de autenticação e autorização do usuário e *parsing* de arquivo CSV.
+
+## Tecnologias
+
+- Laravel 12.x
+- Blade + AlpineJS
+- Tailwind CSS
+- Vite
+- SQLite
 
 ## Protótipos
 
