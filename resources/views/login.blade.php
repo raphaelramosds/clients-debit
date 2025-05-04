@@ -13,7 +13,7 @@
             <x-input icon="fa-lock" placeholder="Senha"/>
         </div>
         <div class="mt-7">
-            <button class="bg-[#1B2845] text-white rounded-[5px] w-full py-2" type="submit">Entrar</button>
+            <button type="submit" class="bg-[#1B2845] text-white rounded-[5px] w-full py-2">Entrar</button>
         </div>
         <div class="mt-7 text-center text-[#555555]">
             <a href="#">Esqueci minha senha</a>

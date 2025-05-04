@@ -17,7 +17,7 @@
             <x-input icon="fa-lock" placeholder="Confirmar senha"/>
         </div>
         <div class="mt-7">
-            <button class="bg-[#1B2845] text-white rounded-[5px] w-full py-2" type="submit">Registrar-se</button>
+            <button type="submit" class="bg-[#1B2845] text-white rounded-[5px] w-full py-2">Registrar-se</button>
         </div>
     </div>
     <div class="mt-7 text-center text-[#555555]">
