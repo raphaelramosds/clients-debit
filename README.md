@@ -10,7 +10,7 @@ Essa aplicação não me ajuda em nada no meu cotidiano, pois é somente um CRUD
 
 ## Ambiente de desenvolvimento
 
-## Ambiente de desenvolvimento (com docker)
+### Com Docker
 
 🚧 _Em construção_
 
