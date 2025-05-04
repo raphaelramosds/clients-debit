@@ -1,3 +1,9 @@
+## Dependências
+
+- PHP
+- Node.js
+- Composer 
+
 ## Configurando o SQLite
 
 Crie o arquivo database.sqlite na pasta database
