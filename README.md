@@ -1,10 +1,34 @@
-## Dependências
+# Controle de Débitos
 
+## O que tem aqui?
+
+Essa aplicação não me ajuda em nada no meu cotidiano, pois é somente um CRUD inútil. Construi ela apenas para treinar minhas habilidades de prototipagem com o Laravel Blade, e aplicar conhecimento de autenticação e autorização do usuário e *parsing* de arquivo CSV.
+
+## Protótipos
+
+![Para cego ver o prototipo feito no Figma](./public/img/prototipos.png)
+
+## Ambiente de desenvolvimento
+
+## Ambiente de desenvolvimento (com docker)
+
+🚧 _Em construção_
+
+### Sem Docker
+
+#### Dependências deste projeto
+
+- Linux
 - PHP
+- Gerenciador de dependências Composer 
 - Node.js
-- Composer 
+- Gerenciador de dependências NPM
 
-## Configurando o SQLite
+#### Extensões PHP obrigatórias
+
+    sudo apt-get install xml
+
+#### Configurando o SQLite
 
 Crie o arquivo database.sqlite na pasta database
 
@@ -12,7 +36,13 @@ Instalar extensão do sqlite3 para o PHP e o proprio sqlite3 para poder gerencia
 
     sudo apt-get install php-sqlite3 sqlite3
 
-## Executando
+#### Executando
+
+Instale as dependencias
+
+    npm i
+
+    composer i
 
 Gere a key
 
